@@ -1,0 +1,27 @@
+.create_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create_list__button {
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #e53170;
+  background-color: white;
+  outline: none;
+  span {
+    color: #e53170;
+    line-height: 2rem;
+    font-size: 1.75rem;
+    user-select: none;
+  }
+  &:hover {
+    background-color: #e53170;
+    span {
+      color: white;
+    }
+  }
+}
